@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/etNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nome do Aluno"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etMatricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Matricula"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etCpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CPF"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="salvar"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="limparCampos"
+            android:text="Limpar" />
+
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="listar"
+            android:text="Listar" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

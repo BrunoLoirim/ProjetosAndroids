@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularioDiariasActivity">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/etDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Destino"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etDataSaida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Data de Saida"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etDataChegada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Data de Chegada"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etItinerario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Itinerario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etFuncionario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Funcionario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etValorDiaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Valor Diaria"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="salvar"
+            android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="limparCampos"
+            android:text="Limpar" />
+
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="listar"
+            android:text="Listar" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
