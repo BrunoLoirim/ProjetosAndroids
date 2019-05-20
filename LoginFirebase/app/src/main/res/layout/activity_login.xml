@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/background_dark"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Nome" />
+
+    <EditText
+        android:id="@+id/edSenha"
+
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+
+        android:layout_marginTop="8dp"
+        android:background="@android:color/background_dark"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="@+id/edEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edEmail"
+        app:layout_constraintTop_toBottomOf="@+id/edEmail"
+        tools:text="Password" />
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/background_dark"
+        android:text="@string/enter"
+        app:layout_constraintEnd_toEndOf="@+id/edSenha"
+        app:layout_constraintStart_toStartOf="@+id/edSenha"
+        app:layout_constraintTop_toBottomOf="@+id/edSenha" />
+
+    <TextView
+        android:id="@+id/txtMsgLink"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/msgLink"
+        app:layout_constraintEnd_toEndOf="@+id/btnEnter"
+        app:layout_constraintStart_toStartOf="@+id/btnEnter"
+        app:layout_constraintTop_toBottomOf="@+id/btnEnter" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="167dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoginFirebase</string>
+    <string name="enter">Enter</string>
+    <string name="msgLink">Nao tem um conta? Crie aqui</string>
+</resources>

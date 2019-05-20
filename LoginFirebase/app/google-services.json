@@ -1,0 +1,48 @@
+git status{
+  "project_info": {
+    "project_number": "905854085186",
+    "firebase_url": "https://loginfirebase-f1b08.firebaseio.com",
+    "project_id": "loginfirebase-f1b08",
+    "storage_bucket": "loginfirebase-f1b08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905854085186:android:db663862faf67d2a",
+        "android_client_info": {
+          "package_name": "faculdadedelta.edu.loginfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905854085186-pr410ntu2l7m93a0uit9fhd2c8irr9ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "faculdadedelta.edu.loginfirebase",
+            "certificate_hash": "b2183c02b2236c891f1099f94cf95412d6c128f9"
+          }
+        },
+        {
+          "client_id": "905854085186-sv2u14qj63fj16tqi4l05mb7v9qghsmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_7vQPNqeucvxrP1euz7Ez5JJJ8Bll21M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905854085186-sv2u14qj63fj16tqi4l05mb7v9qghsmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

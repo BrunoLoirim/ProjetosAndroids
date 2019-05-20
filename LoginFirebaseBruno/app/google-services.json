@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "140761748015",
+    "firebase_url": "https://loginfirebasebruno2019.firebaseio.com",
+    "project_id": "loginfirebasebruno2019",
+    "storage_bucket": "loginfirebasebruno2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140761748015:android:e7504ae638fce48f",
+        "android_client_info": {
+          "package_name": "faculdadedelta.edu.br.LoginFirebaseBruno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140761748015-0e66rvek60gifi0pih564faipn5htv22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "faculdadedelta.edu.br.LoginFirebaseBruno",
+            "certificate_hash": "b2183c02b2236c891f1099f94cf95412d6c128f9"
+          }
+        },
+        {
+          "client_id": "140761748015-u0qp9jqr4grh00fpnd88r233ja5kkeoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdC2WKQScQGRWe8iqxPbHuKaUlMPbzHyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140761748015-u0qp9jqr4grh00fpnd88r233ja5kkeoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
